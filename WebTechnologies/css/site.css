@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+}
+
+#outer {
+  width: 500px;
+  height: 500px;
+  background: red;
+  padding: 2px 5px;
+}
+.center {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+ul#menu {
+    padding: 0;
+    width: 200px;
+    list-style-type:none
+}
+
+ul#menu li {
+    /*display: inline;*/
+}
+
+ul#menu li{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul#menu li:hover {
+    background-color: #509E2F;
+} 
+
+ul#menu li:active{
+        font-weight:bold;
+    }
